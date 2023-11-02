@@ -1,0 +1,123 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px 10px;
+}
+
+.navbar button{
+    width: 150px;
+    height: 55px;
+    border: none;
+    background-color: #fbe850;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.navbar a{
+    font-family: 'Nosifer', sans-serif;
+    font-size: x-large;
+    color: white;
+}
+.navbar a span{
+    color: #9FA6B2;
+}
+.center a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    width: 90%;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+.hamburger{
+    cursor: pointer; 
+}
+.hamburger span{
+    width: 30px;
+    height: 3px;
+    margin-bottom: 7px;
+    background-color: black;
+    display: block;
+}
+.hide{
+    display: none;
+}
+button{
+    display: none;
+}
+button:hover{
+    color: white;
+    background-color: #BF360C;
+    border-radius: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.hide a:hover{
+    background-color: white;
+    color: black;
+    height: 30px;
+    border-radius: 10px;
+    background-size: cover;
+    /* margin: 0px auto; */
+    padding: auto;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width:700px) {
+    .center{
+        position: absolute;
+        width: 100%;
+        top: 3.5em;
+        /* background-color: white; */
+        background-color: rgba(10, 10, 11, 0.604);
+        margin: 0px auto;
+        left: 0;
+        height: 100vh;
+        float: none;
+        justify-content: center;
+        padding-top: 5em;
+        backdrop-filter: blur(20px);
+    }
+   
+    .center a{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+        justify-self: center;
+        padding: 10px;
+        width: 90%;
+        margin: 0px auto;
+        text-decoration: none;
+        border: none;
+        color: white;
+        margin-top: 10px;
+        font-size: x-large;  
+    }
+    
+}
+.textin{
+    color: white;
+}
+
+@media(min-width:668px){
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    .hamburger{
+        display: none;
+    }
+    .center{
+        display: flex;
+        position: relative;
+    }
+    .center a{
+        padding: 0px 2em;
+        position: relative;
+    }
+    button{
+        display: block;
+    }
+}

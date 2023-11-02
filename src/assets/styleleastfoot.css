@@ -1,0 +1,79 @@
+.footer{
+   
+}
+.iconlist{
+    align-self: end;
+    text-align: end;
+    
+}
+.textlist{
+    /* max-width: 50%; */
+    width: 450px;
+    width: 85%;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    display: block;
+    margin: 0px auto;
+}
+.textlist p{
+    width: 45%;
+}
+.textlist h5{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
+}
+@media (max-width:768px){
+    /* .iconlist{
+        text-align: center;
+    } */
+    .textlist button{
+      display: grid;
+      align-items: center;
+    }
+    .textlist p{
+        width: 100%;
+    }
+    .textlist{
+        width: 100%;
+    }
+}
+.textlist button{
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+.iconlist{
+    width: 40%;
+}
+.iconlist i{
+    font-size: x-large;
+    padding: 0px 5px;
+    color: #004D40;
+    
+}
+.nameandicon{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 1em 0px;
+    margin-top: 2em;
+    background-color: #9FA6B2;
+}
+.nameandicon p{
+    width: 40%;
+font-size: medium;
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+align-self: end;
+margin-bottom: 0px;
+color: #004D40;
+}
+.iconlist i:hover{
+    color: #2962FF;
+}

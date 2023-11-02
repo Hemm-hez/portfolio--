@@ -1,0 +1,38 @@
+
+.article{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#9FA6B2;
+    padding: 15px 10px;
+    margin: 0px;
+    max-width: 100%;
+    padding-bottom: 5%;
+}
+.consistbtext, .smalltextonly{
+    max-width: 100%;
+    width: 580px;
+}
+.consistbtext h2{
+    font-size: 2.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.article p{
+  margin-bottom: 0px;
+  font-size: large;
+}
+.smalltextonly{
+    margin-top: 20px;
+}
+@media (max-width:700px){
+    .consistbtext h2{
+        font-size: x-large;
+        font-weight: bold;
+    }
+}
+.smalltextonly span{
+    font-weight: bold;
+}
+

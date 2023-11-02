@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Mukta:wght@200;300;400;500&family=Nosifer&family=Noto+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200&family=Roboto+Condensed:ital,wght@0,100;0,200;1,100;1,500&family=Roboto:ital,wght@0,100;1,100&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+.biggertext{
+    width: 84%;
+   display: block;
+   /* flex-direction: column; */
+   margin: 0px auto;
+   /* display: flex; */
+}
+.biggertext p{
+    line-height: 20px;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
+}
+.biggertext h2{
+    font-size: 3.5em;
+    margin-bottom: 0px;
+    font-weight: 200;
+font-family: 'Playfair Display', serif;  
+}
+@media (min-width:1200px){
+    .biggertext p{
+        width: 48%;
+        line-height: 20px;
+        font-size: large;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 200;
+    }
+    .biggertext h2{
+        width: 60%;
+        font-size: 3.5em;
+        margin-bottom: 0px;
+        font-weight: 200;
+    
+    font-family: 'Playfair Display', serif;  
+    }  
+}
+
+@media (max-width:700px) {
+   
+    .biggertext h2{
+        width: 100%;
+        font-size: 2rem;
+    }
+    .biggertext{
+        margin: 0px 12px;
+        margin-top: 25px;
+    }
+    .biggertext p{
+        width: 100%;
+        font-size: medium;
+    }
+    .alllogos img{
+        width: 150px;
+        padding: 10px 0px;
+    } 
+}
+/* .alllogos img{
+    width: 150px;
+    padding: 10px 5px;
+} */
+
+.alllogos{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3em auto;
+    width: 85%;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imageflex{
+    width: 580px;
+    padding: 0px 5px;
+}
+.imageflex img{
+    width: 580px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.imageflex a{
+    font-family: 'Playfair Display', serif; 
+    font-weight: 100;
+    font-size: 2.5em;
+    margin: 0px;
+    text-decoration: none;
+    
+}
+.imageflex p{
+    font-size: large;
+    /* font-family: 'Rubik', sans-serif; */
+    /* font-weight: 100; */
+}
+
+
